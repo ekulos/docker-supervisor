@@ -14,8 +14,8 @@ This repository contains **Dockerfile** of [Supervisor](http://supervisord.org/)
 
 ### Usage
 
-    docker run -it --rm jslucas/docker-supervisor
+    docker run -it --rm lucasabs/docker-supervisor
 
 #### Run with custom config directory
 
-    docker run -d -v <config-dir>:/etc/supervisor/conf.d jslucas/docker-supervisor
+    docker run -d -v <config-dir>:/etc/supervisor/conf.d lucasabs/docker-supervisor
